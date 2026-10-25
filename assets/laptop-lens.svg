@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Laptop Lens</title>
+  <rect x="10" y="9" width="44" height="36" rx="6" fill="#cbd0db"/>
+  <rect x="14" y="13" width="36" height="28" rx="3" fill="#17191f"/>
+  <path d="M19 30H25L29 22L34 33L39 25H45" fill="none" stroke="#929aff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M10 43H54L60 51V52L56 55H8L4 52V51Z" fill="#cbd0db"/>
+  <rect x="26" y="46" width="12" height="2" rx="1" fill="#17191f"/>
+</svg>

@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem.
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Laptop model and Windows version
+      description: Do not include serial numbers or device IDs.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and steps to reproduce
+      description: Include expected behavior and any error message. Remove personal details from logs.
+    validations:
+      required: true

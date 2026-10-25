@@ -1,0 +1,59 @@
+# Dependencies
+/node_modules/
+/.venv/
+/venv/
+
+# Build output and release assets
+/dist/
+/build/
+/build-desktop/
+/release/
+*.egg-info/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+/coverage/
+/htmlcov/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+.npmrc
+.pypirc
+
+# Runtime data and diagnostic exports
+*.log
+/exports/
+/reports/
+laptop-lens-report*.json
+laptop-lens-history*.csv
+
+# Local tooling and implementation notes
+/.agents/
+/.taste-skill/
+/skills-lock.json
+/tools/vendor/
+/docs/internal/
+/.vscode/
+/.idea/
+/tmp/
+/temp/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~

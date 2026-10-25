@@ -1,0 +1,31 @@
+{
+  "name": "laptop-lens",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local Windows performance monitoring and bounded Lenovo device controls.",
+  "license": "MIT",
+  "author": "AY-KARMA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AY-Karma/Laptop-Lens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AY-Karma/Laptop-Lens/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.7.0",
+    "vite": "6.4.5"
+  }
+}
